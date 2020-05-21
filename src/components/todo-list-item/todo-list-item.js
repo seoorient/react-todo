@@ -11,7 +11,7 @@ export default class TodoListItem extends Component {
       onToggleImportant,
       onToggleDone,
       important,
-      done,
+      done
     } = this.props;
 
     let classNames = 'todo-list-item';
